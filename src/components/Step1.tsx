@@ -45,8 +45,10 @@ const Step1: FunctionComponent<IProp> = (props: IProp) => {
       props.setOneWin(true);
       props.setZerowin(false);
     } else {
-      let newScoreNeg = props.score - 1;
-      props.setScore(newScoreNeg);
+      if (props.score > 0) {
+        let newScoreNeg = props.score - 1;
+        props.setScore(newScoreNeg);
+      }
       props.setOneWin(false);
       props.setZerowin(true);
     }
