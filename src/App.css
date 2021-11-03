@@ -542,7 +542,7 @@ p {
   }
 
   h3 {
-    font-size: 1.2em
+    font-size: 1.2em;
   }
 
   p {
@@ -580,7 +580,6 @@ p {
   .youpickedrockimg img {
     margin-left: 30%;
     margin-top: 27px;
-
   }
 
   .housepickedpaperimg {
@@ -592,7 +591,6 @@ p {
   .housepickedpaperimg img {
     margin-left: 30%;
     margin-top: 27px;
-
   }
 
   .housepickedscissorsimg {
@@ -604,7 +602,6 @@ p {
   .housepickedscissorsimg img {
     margin-left: 30%;
     margin-top: 27px;
-
   }
 
   .housepickedrockimg {
@@ -616,7 +613,6 @@ p {
   .housepickedrockimg img {
     margin-left: 30%;
     margin-top: 27px;
-
   }
 
   .scorecall {
@@ -721,7 +717,7 @@ p {
 
   .footer {
     right: 38vw;
-    bottom: 150px;
+    bottom: 60px;
   }
 }
 
